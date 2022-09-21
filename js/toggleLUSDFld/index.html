@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Toggle</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/logo/favicon-16x16.png">
+    <link rel="manifest" href="/assets/logo/site.webmanifest">
+    <link rel="mask-icon" href="/assets/logo/safari-pinned-tab.svg" color="#4b7bb7">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="/assets/libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/libs/select2/select2.min.css">
+    <link href="/assets/styles/main.css" rel="stylesheet">
+    <link href="/assets/styles/0-vendor/font-icons/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="serviceStyle.css">
+
+</head>
+
+<body onload="starter()">
+    <script>
+        //https://pqina.nl/flip/
+        let inst
+        var tickInst = undefined
+
+        async function starter() {
+            try {
+                inst = new ex.toggleBulbHandler()
+                console.info("starting simple toggle bulb")
+            }
+            catch (e) {
+                let msg = "exception while starting service " + e.message
+                console.error(msg);
+                alert(msg)
+            }
+        };
+    </script>
+
+    <div id="page-container">
+        <div id="page-header">
+            <header class="">
+                <div class="container">
+                    <nav
+                        class="navbar d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                        <a href="https://nikki.build" class="navbar-brand">
+                            <img src="/assets/logo/nikkilogo.svg" alt="nikkibuild logo" />
+                        </a>
+                        <h2 id="serviceNameID" class="display-4 pl-xs-3  pl-md-5">toggle</h2>
+                        <h4 id="miniHeaderID"></h4>
+                    </nav>
+                </div>
+            </header>
+        </div>
+
+        <div id="page-content" style="min-height: 580px; height: 100%;">
+            <div class="container">
+
+                <div class="row pt-xs-2 pt-md-3">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="card card-primary bg-grey" style="min-height: 490px;">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-end">
+                                    <div class="mr-auto">
+                                        <span id="statusID" class="badge badge-warning">dis connected</span>
+                                    </div>
+
+                                </div>
+                                <div style="display: flex; align-items: center; justify-content: center;">
+                                    <img id="imageID" alt="stat on/off" src="off.svg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row py-xs-2 py-md-5  text-left">
+                    <div class="col">
+                        received data: <section id="inputMsgID"></section>
+                    </div>
+                    <div class="col">
+                        sending data: <section id="outputMsgID"></section>
+                    </div>
+                </div>
+
+                <div class="row  text-left">
+                    <div class="col text-center">
+                        docs<span id="licenseLinkID"></span>
+                    </div>
+                    <div class="col text-center">
+                        creadits<span id="licenseLinkID"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="page-footer" class="float">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-column">
+                            <h4 class="footer-column-title">nikki.build</h4>
+                            <ul class="list-unstyled footer-column-list">
+                                <li><a href="#" class="footer-column-list-item-link" aria-label="copyrights">&copy;
+                                        Copyrights 2022.
+                                        nikkibuild edTech Pvt Ltd.</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ml-auto">
+                        <div class="footer-column">
+                            <h4 class="footer-column-title">Follow us</h4>
+                            <ul class="list-unstyled footer-column-list-social">
+                                <li><a href="#" class="footer-column-list-social-item-link" aria-label="icon"><i
+                                            class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="#" class="footer-column-list-social-item-link" aria-label="icon"><i
+                                            class="fab fa-instagram-square" aria-hidden="true"></i></a></li>
+                                <li><a href="#" class="footer-column-list-social-item-link" aria-label="icon"><i
+                                            class="fab fa-twitter-square" aria-hidden="true"></i></a></li>
+                                <li><a href="#" class="footer-column-list-social-item-link" aria-label="icon"><i
+                                            class="fab fa-youtube-square" aria-hidden="true"></i></a></li>
+                                <li><a href="#" class="footer-column-list-social-item-link" aria-label="icon"><i
+                                            class="fab fa-whatsapp-square" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/assets/libs/jquery/jquery-3.5.1.slim.min.js"></script>
+    <script src="/assets/libs/popper/popper.min.js"></script>
+    <script src="/assets/libs/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" language="javascript" src="client.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Icon"
+   viewBox="0 0 100 99.999999"
+   version="1.1"
+   sodipodi:docname="serImage - Copy.svg"
+   width="100"
+   height="100"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs31" />
+  <sodipodi:namedview
+     id="namedview29"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="5.2"
+     inkscape:cx="-60.769231"
+     inkscape:cy="86.634615"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="3832"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Icon" />
+  <title
+     id="title2">set-led-white</title>
+  <path
+     d="m 78.648564,37.379355 a 26.557265,24.830079 0 0 1 -5.31145,17.622265 c -3.824249,4.625482 -6.221991,7.378076 -6.221991,13.223787 v -0.255398 a 7.1628739,6.6970269 0 0 1 -3.976,6.242986 v 0 a 24.614792,23.013934 0 0 1 -21.427918,0 v 0 a 7.0111178,6.5551403 0 0 1 -3.945653,-5.902463 v 0 c 0,-5.845712 -2.42809,-8.513168 -6.282684,-13.195407 a 26.587616,24.858453 0 1 1 47.165696,-17.73577 z"
+     fill="#ffffff"
+     stroke="#774dcb"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path4"
+     style="stroke-width:2.93478" />
+  <ellipse
+     cx="52.88459"
+     cy="86.691605"
+     fill="#e6e7e8"
+     stroke="#774dcb"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="circle6"
+     rx="9.3077841"
+     ry="8.3570528"
+     style="stroke-width:2.9796" />
+  <path
+     d="m 69.173221,80.33912 a 6.8236125,6.1266227 0 0 1 -4.213657,5.646663 h -0.28301 a 30.721978,27.583917 0 0 1 -23.709694,0 v 0 A 6.6978314,6.0136897 0 0 1 36.595983,80.593222 V 75.34183 a 2.6728438,2.3998291 0 0 1 3.144515,-2.399826 l 3.616203,0.508196 a 66.506636,59.713397 0 0 0 19.055799,0 l 3.710537,-0.479966 a 2.6728438,2.3998291 0 0 1 3.144522,2.399834 v 4.997289 z"
+     fill="#e6e7e8"
+     stroke="#774dcb"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path8"
+     style="stroke-width:2.9796" />
+  <line
+     x1="14.552882"
+     y1="41.63129"
+     x2="5.1193151"
+     y2="41.63129"
+     fill="none"
+     stroke="#ffffff"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="4.4694"
+     id="line10" />
+  <line
+     x1="100.64991"
+     y1="41.63129"
+     x2="91.216324"
+     y2="41.63129"
+     fill="none"
+     stroke="#ffffff"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="4.4694"
+     id="line12" />
+  <path
+     d="m 36.595979,78.362791 a 21.665753,19.45273 0 0 0 5.094126,1.722234"
+     fill="#e6e7e8"
+     stroke="#774dcb"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path14"
+     style="stroke-width:2.9796" />
+  <path
+     d="m 69.173221,78.362791 a 21.665753,19.45273 0 0 1 -5.094129,1.722234"
+     fill="#e6e7e8"
+     stroke="#774dcb"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path16"
+     style="stroke-width:2.9796" />
+  <line
+     x1="25.778822"
+     y1="65.968353"
+     x2="19.112436"
+     y2="71.953842"
+     fill="none"
+     stroke="#ffffff"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="4.4694"
+     id="line18" />
+  <line
+     x1="86.656769"
+     y1="11.336974"
+     x2="79.990364"
+     y2="17.32243"
+     fill="none"
+     stroke="#ffffff"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="4.4694"
+     id="line20" />
+  <line
+     x1="79.990364"
+     y1="65.968353"
+     x2="86.656769"
+     y2="71.953842"
+     fill="none"
+     stroke="#ffffff"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="4.4694"
+     id="line22" />
+  <line
+     x1="19.112436"
+     y1="11.336974"
+     x2="25.778822"
+     y2="17.32243"
+     fill="none"
+     stroke="#ffffff"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="4.4694"
+     id="line24" />
+  <line
+     x1="52.88459"
+     y1="-1.2268385"
+     x2="52.88459"
+     y2="7.2431479"
+     fill="none"
+     stroke="#ffffff"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="4.4694"
+     id="line26" />
+</svg>
